@@ -1,22 +1,27 @@
-
-.navbar .nav {
-	text-align: center;
+.container-narrow {
+  margin: 0 auto;
+  max-width: 940px;
 }
 
+.navbar .nav,
 .navbar .nav > li {
-	float: none;
-	display: inline-block;
-	border: none;
-	position: relative;
-	left: 0;
-	margin: 0 10px 0 0;
+  float: none;
+  display: inline-block;
 }
 
-.navbar .nav>li>a {
-	font-size: 20px;
-	float: none;
-	padding: 10px 15px 10px;
-	color: #777;
-	text-decoration: none;
-	text-shadow: 0 1px 0 #fff;
+.navbar-inner {
+  text-align: center;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.custom-font {
+  font: 12pt verdana, Georgia, Times, serif;
 }
